@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.scrollNone::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* -----Navbar----------- */
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0;
+}
+
+
+
+.navbar ul li {
+    list-style: none;
+    color: #2fa8d3;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px solid #2fa8d3;
+}
+
+.navbar ul.menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.navbar ul.menu li:hover {
+    border-bottom: none;
+    color: #133250;
+}
+
+/* -----------Gallery--------- */
+
+.gallary img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(23, 16, 16);
+}
+
+
+/* -----------Footer--------- */
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footer ul li:hover {
+    color: #fff;
+}
